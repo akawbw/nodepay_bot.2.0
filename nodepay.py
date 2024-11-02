@@ -96,7 +96,7 @@ async def call_api(url, data, proxy, token, max_retries=3):
         "Accept": "application/json",
         "Accept-Language": "en-US,en;q=0.5",
         "Referer": "https://app.nodepay.ai",
-        "Cookie": "__cf_bm=eLgxJdCy9oYdaH6lDYpX.igutO9m0hwvgv3em1uwGss-1730430111-1.0.1.1-0JTC9oIoIBkgfju12eTJWqzShzNIPJcGdc97dBM6qnUQOZd9t4o.OR0hUfspTYLwNnSQ7psrP_ZwhuQgjp_jcw",
+        "Cookie": "__cf_bm=try6urXzJlz0NXAwXvMTdTav2NRVNgThA5EFpbRZEm4-1730542760-1.0.1.1-nudr8RdyyWX7NaMkbShoZlo.comxt6I.LAniBWUgDquktRg1aTOC0RWwK4jce6mc5R53toLLZv7Dz2fiFJYLrg",
     }
 
     async with aiohttp.ClientSession(connector=aiohttp.TCPConnector(ssl=True)) as session:
